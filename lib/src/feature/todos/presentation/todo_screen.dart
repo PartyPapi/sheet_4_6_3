@@ -22,14 +22,6 @@ class TodosScreen extends StatelessWidget {
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.check_box), label: 'Todos'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profil'),
-        ],
-        currentIndex: 0,
-        onTap: (index) {},
-      ),
     );
   }
 }
